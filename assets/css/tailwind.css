@@ -1,0 +1,19 @@
+/* @import url("./global.css");
+@import url("./fonts.css"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply p-0 m-0;
+  }
+  html {
+    @apply box-border transition-all;
+  }
+
+  body {
+    @apply text-base bg-background;
+  }
+}

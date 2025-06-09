@@ -1,0 +1,18 @@
+{
+  "name": "compato_freelancing",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwind-output.css --watch",
+    "build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwind-output.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^3.4.17"
+  }
+}
